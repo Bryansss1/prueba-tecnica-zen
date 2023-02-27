@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Sarabun', sans-serif;
+color: white;
+text-shadow: 2px 2px 2px black;
+}
+.image-logo{
+width: 100%;
+max-width: 3rem;
+border-radius: 25%;
+animation: light infinite 3s;
+}
+body{
+    background: linear-gradient(90deg, rgba(142,2,0,1) 21%, rgba(180,117,0,1) 53%);
+}
+
+.header-landing{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 2rem 0rem;
+}
+
+ul{
+    list-style:decimal;
+}
+li{
+    margin: 1rem;
+}
+.questions{
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap: 2rem;
+margin: 2rem;
+}
+span{
+    font-weight: 900;
+    color: rgb(131, 131, 131);
+}
+footer{
+    margin: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+a{
+    color: blue;
+}
+h6{
+    font-size: 1.2rem;
+}
+
+@keyframes light {
+    0%{
+    box-shadow: 1px 1px 16px 1px rgb(253, 253, 253);
+    }
+    50%{
+        box-shadow: 1px 1px 16px 1px rgb(255, 0, 0);
+    }
+    100%{
+        box-shadow: 1px 1px 16px 1px rgb(250, 250, 250);
+    }
+}
